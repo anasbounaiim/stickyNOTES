@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="shortcut icon" href="images/logo-d.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://unpkg.com/@popperjs/core@2" ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js" defer></script>
+    <script src="js/script.js" defer></script>
+    
+</head>
+<body>
+   
+    <nav> <a href="" target="_blank"><img src="images/logo-d.png" alt="logo" class="logo"></a></nav>
+    <!--<h1 class="title">Your Note</h1>-->
+    <main>
+    <textarea type="text"  id="noteTXT" placeholder="Put some notes🖊️"></textarea> 
+    <button class="button" onclick="addNote()">+</button>
+    <input type="color"  id="noteColor" class="button">
+    
+    <button id="butto" class="button" aria-describedby="tooltip">?</button>
+    <div id="tooltip" role="tooltip">
+        <h1 class="INST">Instruction</h1>
+        <ul>
+            <li>+: to insert </li>
+            <li>dbclck: ❌ </li>
+            <li>clck: ♻️ </li>
+            <li>rightclk:change color </li>
+            </ul>
+      <div id="arrow" data-popper-arrow></div>
+    </div>
+</main>
+    <div id="space">
+        <h1 id="hide" >...</h1>
+    </div>
+
+    <div class="links"><a href="#" class="link" target="_blank"><i class="fa-brands fa-instagram"></i></a><a href="https://www.linkedin.com/in/anas-bounaim-37450621a/" target="_blank" class="link"><i class="fa-brands fa-linkedin"></i></a><a href="https://github.com/anasbounaiim" target="_blank" class="link"><i class="fa-brands fa-github"></i></a></div>
+
+</body>
+</html>
